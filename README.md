@@ -188,11 +188,24 @@ In no particular order...
   - [ ] Colors
   - [ ] Formats for various platforms
 
-#### Assets
+#### Design Assets
 - [ ] Code 
+  - [ ] Prototyping templates and resources
+    - [ ] React
+    - [ ] Vue
+    - [ ] Angular
+    - [ ] Static HTML
+    - [ ] Lodash / handlebars / swig etc.
+    - [ ] CSS toolkit
+      - [ ] Sass 
+      - [ ] Stylus
+      - [ ] Less
+      - [ ] Postcss
+      - [ ] Vanilla
+
 - [ ] Design Templates (XD, Photoshop, Illustrator, Sketch)
 - [ ] Icons
-- [ ] Typefaces (Open sans, Roboto slab) 
+- [ ] Typefaces (Actual font files, useful for print design and using apps like photoshop) 
 
 #### Writing (Voice and Tone)
 - [ ] Capitalization
