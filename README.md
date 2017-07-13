@@ -11,37 +11,43 @@ In no particular order...
 - [ ] General rules and guidelines
 
 ### Presentation Assets
-- Slide decks (powerpoint & keynote) 
+- [ ] Slide decks (powerpoint & keynote) 
   - [ ] Internal template
   - [ ] External template
   - [ ] Shared assets
     - [ ] Client / Vendor logo assets
 
 ### Marketing materials
-  - T-shirts
-  - Buttons
-  - Pamphlets
-  - Posters
-  - Booth decals / structure
-  - Billboards
+- [ ] T-shirts
+  - [ ] General guidelines
+  - [ ] T-shirt colors
+- [ ] Buttons
+- [ ] Pamphlets
+- [ ] Posters
+- [ ] Booth decals / structure
+- [ ] Billboards
 
 ### Social media
-    - Twitter
-      - [ ] General usage guidelines
-      - [ ] Avatar
-      - [ ] Background Image
-    - Facebook 
-      - [ ] General usage guidelines
-      - [ ] Profile photo
-      - [ ] Background Image
-      - [ ] Photo albums
-    - Vimeo / Youtube (Support videos?)
-      - [ ] Avatar
+- Twitter
+  - [ ] General usage guidelines
+  - [ ] Avatar
+  - [ ] Background Image
+- Facebook 
+  - [ ] General usage guidelines
+  - [ ] Profile photo
+  - [ ] Background Image
+  - [ ] Photo albums
+- Vimeo / Youtube (Support videos?)
+  - [ ] Avatar
+
+### TBN
 - Existing websites
 - New websites and pages 
 - Internal tools
 - Third party site integrations (zendesk)
 - Logged in app
+
+### Brand
 - [ ] Logo
     - [ ] Logomark 
     - [ ] Logotype
@@ -53,8 +59,10 @@ In no particular order...
     - [ ] Using against a background
     - [ ] Color rules
     - [ ] Usage restrictions
+
+#### Design primitives
 - Colors 
-  - General usage guidelines 
+  - [ ] General usage guidelines 
   - [ ] Palette
       - [ ] Name
       - [ ] CMYK
@@ -63,6 +71,7 @@ In no particular order...
       - [ ] rgb
       - [ ] hsl
   - [ ] Combinations of colors for use
+
 - Gradients
   - [ ] General usage guidelines
   - [ ] Combining with text
