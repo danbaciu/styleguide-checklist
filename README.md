@@ -7,48 +7,9 @@ a company or project. Currently a work in progress.
 
 In no particular order...
 
-### Print collateral
-- [ ] General rules and guidelines
-
-### Presentation Assets
-- [ ] Slide decks (powerpoint & keynote) 
-  - [ ] Internal template
-  - [ ] External template
-  - [ ] Shared assets
-    - [ ] Client / Vendor logo assets
-
-### Marketing materials
-- [ ] T-shirts
-  - [ ] General guidelines
-  - [ ] T-shirt colors
-- [ ] Buttons
-- [ ] Pamphlets
-- [ ] Posters
-- [ ] Booth decals / structure
-- [ ] Billboards
-
-### Social media
-- Twitter
-  - [ ] General usage guidelines
-  - [ ] Avatar
-  - [ ] Background Image
-- Facebook 
-  - [ ] General usage guidelines
-  - [ ] Profile photo
-  - [ ] Background Image
-  - [ ] Photo albums
-- Vimeo / Youtube (Support videos?)
-  - [ ] Avatar
-
-### TBN
-- Existing websites
-- New websites and pages 
-- Internal tools
-- Third party site integrations (zendesk)
-- Logged in app
-
 ### Brand
-- [ ] Logo
+
+#### Logo
     - [ ] Logomark 
     - [ ] Logotype
     - [ ] Logotype
@@ -60,8 +21,9 @@ In no particular order...
     - [ ] Color rules
     - [ ] Usage restrictions
 
-#### Design primitives
-- Colors 
+### Design primitives
+
+#### Colors 
   - [ ] General usage guidelines 
   - [ ] Palette
       - [ ] Name
@@ -72,7 +34,7 @@ In no particular order...
       - [ ] hsl
   - [ ] Combinations of colors for use
 
-- Gradients
+#### Gradients
   - [ ] General usage guidelines
   - [ ] Combining with text
   - [ ] Color values
@@ -113,6 +75,21 @@ In no particular order...
     - [ ] Available weights (values)
   - [ ] Measure
   - [ ] Text alignment
+  - [ ] Capitalization 
+  - [ ] Formatting 
+    - [ ] Dates
+    - [ ] Time
+    - [ ] Date range
+    - [ ] Time range
+    - [ ] Citations
+    - [ ] Quotes
+    - [ ] Author
+
+- Graphs
+  - [ ] General usage and guidelines
+  - [ ] Colors
+  - [ ] Styles
+
 - Animations
   - [ ] Easing functions
   - [ ] Timing of animations
@@ -129,10 +106,48 @@ In no particular order...
     - [ ] Composition
     - [ ] How to combine with text
   - [ ] Illustration styles
-- [ ] Voice and Tone for copy
+- [ ] Voice and Tone (for copy)
+  - [ ] General guidelines
   - [ ] Marketing
   - [ ] App
   - [ ] Different channels
+  - [ ] Gender
+  - [ ] Pronouns
+  - [ ] Age
+  - [ ] Vision 
+  - [ ] Personal attributes
+  - [ ] Grammar 
+    - [ ] Numbers 
+    - [ ] Dates
+    - [ ] Time
+    - [ ] Decimals, Fractions, Percentages
+    - [ ] Value ranges 
+    - [ ] Money
+    - [ ] Telephone numbers
+    - [ ] Temperature
+    - [ ] Punctuation usage
+      - [ ] Colons
+      - [ ] Commas
+      - [ ] Dashes and hyphens
+      - [ ] Ellipses
+      - [ ] Periods
+      - [ ] Question marks
+      - [ ] Exclamation points
+      - [ ] Quotation marks
+      - [ ] Semicolons
+      - [ ] Ampersands
+    - [ ] URLS 
+    - [ ] Address
+    - [ ] States, cities, countries
+    - [ ] About cloudflare
+    - [ ] About other companies
+    - [ ] Slang
+    - [ ] Internationalization (i18n)
+    - [ ] Copyright
+    - [ ] Trademarks
+    - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
+ 
+
 - [ ] Content organization
 - [ ] Navigation patterns
 - [ ] Notification patterns
@@ -146,6 +161,47 @@ In no particular order...
 - [ ] Layout 
 - [ ] Grid
 
+
+### Print collateral
+- [ ] General rules and guidelines
+
+### Presentation Assets
+- [ ] Slide decks (powerpoint & keynote) 
+  - [ ] Internal template
+  - [ ] External template
+  - [ ] Shared assets
+    - [ ] Client / Vendor logo assets
+
+### Marketing materials
+- [ ] T-shirts
+  - [ ] General guidelines
+  - [ ] T-shirt colors
+- [ ] Buttons
+- [ ] Pamphlets
+- [ ] Posters
+- [ ] Booth decals / structure
+- [ ] Billboards
+
+### Social media
+- Twitter
+  - [ ] General usage guidelines
+  - [ ] Avatar
+  - [ ] Background Image
+- Facebook 
+  - [ ] General usage guidelines
+  - [ ] Profile photo
+  - [ ] Background Image
+  - [ ] Photo albums
+- Vimeo / Youtube (Support videos?)
+  - [ ] Avatar
+
+### TBN
+- Existing websites
+- New websites and pages 
+- Internal tools
+- Third party site integrations (zendesk)
+- Logged in app
+
 #### Theming
 - [ ] Shadows
 - [ ] Border radii 
@@ -156,19 +212,6 @@ In no particular order...
   - [ ] Appropriate combinations
   - [ ] Constraints for text or background
   - [ ] Gradients
-
-##### Typography
-  - [ ] Type scale
-  - [ ] Typefaces
-  - [ ] Line heights
-  - [ ] Letter-spacing (tracking)
-  - [ ] Caps treatment
-  - [ ] Formatting 
-    - [ ] Dates
-    - [ ] Date range
-    - [ ] Citations
-    - [ ] Quotes
-    - [ ] Author
 
 ##### Layout
 - Grid
@@ -207,11 +250,6 @@ In no particular order...
 - [ ] Icons
 - [ ] Typefaces (Actual font files, useful for print design and using apps like photoshop) 
 
-#### Writing (Voice and Tone)
-- [ ] Capitalization
-- [ ] Date formatting
-- [ ] Dos and Don'ts
-
 
 ## Style Audit
 To understand where we need to go and how we are going to get there, we need to
@@ -241,4 +279,12 @@ understand what the current reality is
 the styleguide in a way that reduces friction and unknowns for a new teammate or someone collaborating with us?
 - Video tutorials
 - Written guides and visual examples
+
+#### Common pages
+- Landing 
+- Error pages
+  - 404
+  - 500
+  - 503
+- Help
 
