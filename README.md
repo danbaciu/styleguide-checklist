@@ -3,13 +3,11 @@
 A checklist of potential things to consider when constructing a styleguide for
 a company or project. Currently a work in progress.
 
-## Checklist
-
 In no particular order...
 
-### Brand
+## Brand
 
-#### Logo
+### Logo
 - [ ] General usage guidelines
 - [ ] Logo
 - [ ] Logomark 
@@ -30,9 +28,10 @@ In no particular order...
   - [ ] .psd
   - [ ] .svg
 
-### Design primitives
+## Design Primitives
+Base visual styles that can be used for both digital and analog assets.
 
-#### Colors 
+### Color
   - [ ] General usage guidelines 
   - [ ] Palette
       - [ ] Name
@@ -43,132 +42,179 @@ In no particular order...
       - [ ] hsl
   - [ ] Combinations of colors for use
 
-#### Gradients
+### Gradients
   - [ ] General usage guidelines
   - [ ] Combining with text
   - [ ] Color values
   - [ ] Type(s)
   - [ ] Direction
-- [ ] Spacing (margins and padding)
-- [ ] Shadows
-- [ ] Breakpoints 
-- [ ] Borders
-  - [ ] Colors
-  - [ ] Background color
-  - [ ] Animations, interactions
-  - [ ] Styles    
-  - [ ] Size
-  - [ ] Radii
 
-#### Typography
+### Typography
 
-##### Typefaces
-  - [ ] Typefaces used
-    - [ ] General usage and guidelines
-    - [ ] Print
-    - [ ] Email
-    - [ ] Web
-  - [ ] Typescale values 
-    - [ ] Print
-    - [ ] Email
-    - [ ] Web
-  - Leading/line-height
-    - [ ] Copy
-    - [ ] Titles / Large font-size
-  - Tracking / letter-spacing
-    - [ ] Tight value
-    - [ ] Spaced value
-  - Font weights
-    - [ ] General usage guidelines
-    - [ ] Define, if any, constraints with font-size
-    - [ ] Available weights (values)
-  - [ ] Measure
-  - [ ] Text alignment
-  - [ ] Capitalization 
-  - [ ] Formatting 
-    - [ ] Dates
-    - [ ] Time
-    - [ ] Date range
-    - [ ] Time range
-    - [ ] Citations
-    - [ ] Quotes
-    - [ ] Author
-
-- Graphs
+#### Typefaces (Font family)
+- [ ] Typefaces used
   - [ ] General usage and guidelines
-  - [ ] Colors
-  - [ ] Styles
+  - [ ] Web
+  - [ ] Email
+  - [ ] Print
 
-- Animations
-  - [ ] Easing functions
-  - [ ] Timing of animations
-  - [ ] Animation types i.e Bounce, fade, glow
-- Icons 
-  - [ ] Icon grid system
-  - [ ] Size API
+#### Type scale
+- [ ] General usage and guidelines
+- [ ] Values 
+  - [ ] Web
+  - [ ] Email
+  - [ ] Print
+
+#### Leading / line-height
+- [ ] General usage and guidelines
+- [ ] Copy
+- [ ] Titles / Large font-size
+- [ ] Special cases 
+
+#### Tracking / letter-spacing
+- [ ] General usage and guidelines
+- [ ] Tight value
+- [ ] Spaced value
+
+#### Font weights
+- [ ] General usage guidelines
+- [ ] Define, if any, constraints with font-size
+- [ ] Available weights (values)
+- [ ] Restriced weight values (if any)
+
+#### Measure (Length of lines of text)
+- [ ] General usage notes 
+- [ ] Narrow
+- [ ] Default
+- [ ] Wide
+
+#### Text Alignment
+- [ ] Horizontal text alignment value options
+  - [ ] Right
+  - [ ] Left
+  - [ ] Centered
+  - [ ] Justified
+- [ ] Considerations / guidelines for centering text
+- [ ] i18n considerations (Right to Left, Left to Right)
+- [ ] Vertical Alignment general usage guidelines
+
+#### Formatting 
+- [ ] Dates
+- [ ] Time
+- [ ] Date range
+- [ ] Time range
+- [ ] Citations
+- [ ] Quotes
+- [ ] Author
+- [ ] Capitalization 
+
+###  Borders
+
+- [ ] Colors
+- [ ] Styles    
+- [ ] Size (width)
+- [ ] Radii
+
+### Drop & Box Shadows
   - [ ] Colors
-  - [ ] Use w and w/o text
-- Imagery
+  - [ ] Blur
+  - [ ] Size
+  - [ ] Direction
+
+### Layout
+- [ ] Spacing (margins and padding)
+- [ ] Breakpoints 
+- Grid
+  - [ ] Gutters 
+  - [ ] Column sizing
+  - [ ] Column divisions
+- [ ] Component layouts / structure
+- [ ] Page layouts
+- [ ] Vertical alignment (the whens and hows)
+
+### Graphs and Data Visualizations
+- [ ] General usage and guidelines
+- [ ] Colors
+- [ ] Styles
+- [ ] Gradients
+- [ ] Labels
+  - [ ] Orientation
+  - [ ] Capitalization
+
+### Animations
+- [ ] Easing functions
+- [ ] Timing of animations
+- [ ] Animation types i.e Bounce, fade, glow
+- [ ] Animated properties
+
+### Icons 
+- [ ] General usage guidelines
+- [ ] Icon grid system
+- [ ] Size API
+- [ ] Colors
+- [ ] Use w and w/o text
+- [ ] Alignment
+
+### Imagery
   - [ ] Photo guidelines
     - [ ] Saliency
     - [ ] Content
     - [ ] Composition
     - [ ] How to combine with text
   - [ ] Illustration styles
-- [ ] Voice and Tone (for copy)
-  - [ ] General guidelines
-  - [ ] Marketing
-  - [ ] App
-  - [ ] Different channels
-  - [ ] Gender
-  - [ ] Pronouns
-  - [ ] Age
-  - [ ] Vision 
-  - [ ] Personal attributes
-  - [ ] Grammar 
-    - [ ] Numbers 
-    - [ ] Dates
-    - [ ] Time
-    - [ ] Decimals, Fractions, Percentages
-    - [ ] Value ranges 
-    - [ ] Money
-    - [ ] Telephone numbers
-    - [ ] Temperature
-    - [ ] Punctuation usage
-      - [ ] Colons
-      - [ ] Commas
-      - [ ] Dashes and hyphens
-      - [ ] Ellipses
-      - [ ] Periods
-      - [ ] Question marks
-      - [ ] Exclamation points
-      - [ ] Quotation marks
-      - [ ] Semicolons
-      - [ ] Ampersands
-    - [ ] URLS 
-    - [ ] Address
-    - [ ] States, cities, countries
-    - [ ] About cloudflare
-    - [ ] About other companies
-    - [ ] Slang
-    - [ ] Internationalization (i18n)
-    - [ ] Copyright
-    - [ ] Trademarks
-    - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
- 
+
+### Voice and Tone 
+- [ ] General guidelines
+- [ ] Marketing
+- [ ] App
+- [ ] Gender
+- [ ] Pronouns
+- [ ] Age
+- [ ] Vision 
+- [ ] Personal attributes
+- [ ] Grammar 
+  - [ ] Numbers 
+  - [ ] Dates
+  - [ ] Time
+  - [ ] Decimals, Fractions, Percentages
+  - [ ] Value ranges 
+  - [ ] Money
+  - [ ] Telephone numbers
+  - [ ] Temperature
+  - [ ] Punctuation usage
+    - [ ] Colons
+    - [ ] Commas
+    - [ ] Dashes and hyphens
+    - [ ] Ellipses
+    - [ ] Periods
+    - [ ] Question marks
+    - [ ] Exclamation points
+    - [ ] Quotation marks
+    - [ ] Semicolons
+    - [ ] Ampersands
+  - [ ] URLS 
+  - [ ] Address
+  - [ ] States, cities, countries
+  - [ ] About company
+  - [ ] About other companies
+  - [ ] Slang
+  - [ ] Internationalization (i18n) notes 
+    - [ ] Process
+    - [ ] Considerations
+  - [ ] Copyright
+  - [ ] Trademarks
+  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
 
 - [ ] Content organization
 - [ ] Navigation patterns
 - [ ] Notification patterns
-  - [ ] Error states 
-  - [ ] Success states 
+- [ ] Error states 
+- [ ] Success states 
 - [ ] Empty states
 - [ ] Loading states
 - [ ] Illustration / Graphics guides
 - [ ] Photo usage and development
-  - [ ] Where photos are sourced
-- [ ] Layout 
-- [ ] Grid
+- [ ] Where photos are sourced
 
 
 ### Print collateral
@@ -176,15 +222,15 @@ In no particular order...
 
 ### Presentation Assets
 - [ ] Slide decks (powerpoint & keynote) 
-  - [ ] Internal template
-  - [ ] External template
-  - [ ] Shared assets
-    - [ ] Client / Vendor logo assets
+- [ ] Internal template
+- [ ] External template
+- [ ] Shared assets
+  - [ ] Client / Vendor logo assets
 
 ### Marketing materials
 - [ ] T-shirts
-  - [ ] General guidelines
-  - [ ] T-shirt colors
+- [ ] General guidelines
+- [ ] T-shirt colors
 - [ ] Buttons
 - [ ] Pamphlets
 - [ ] Posters
@@ -193,16 +239,16 @@ In no particular order...
 
 ### Social media
 - Twitter
-  - [ ] General usage guidelines
-  - [ ] Avatar
-  - [ ] Background Image
+- [ ] General usage guidelines
+- [ ] Avatar
+- [ ] Background Image
 - Facebook 
-  - [ ] General usage guidelines
-  - [ ] Profile photo
-  - [ ] Background Image
-  - [ ] Photo albums
+- [ ] General usage guidelines
+- [ ] Profile photo
+- [ ] Background Image
+- [ ] Photo albums
 - Vimeo / Youtube (Support videos?)
-  - [ ] Avatar
+- [ ] Avatar
 
 ### TBN
 - Existing websites
@@ -217,43 +263,33 @@ In no particular order...
 - [ ] Border widths 
 - [ ] Border colors
 - [ ] Colors
-  - [ ] Palette
-  - [ ] Appropriate combinations
-  - [ ] Constraints for text or background
-  - [ ] Gradients
+- [ ] Palette
+- [ ] Appropriate combinations
+- [ ] Constraints for text or background
+- [ ] Gradients
 
-##### Layout
-- Grid
-  - [ ] Gutters 
-  - [ ] Column sizing
-  - [ ] Column divisions
-- [ ] Component layouts / structure
-- [ ] Page layouts
-  - [ ] Configurations of column combinations
-- [ ] Spacing scale
-- [ ] Vertical alignment (the whens and hows)
 
 #### Icons
 - [ ] Collect icon assets
 - [ ] Icon 
-  - [ ] Name
-  - [ ] Colors
-  - [ ] Formats for various platforms
+- [ ] Name
+- [ ] Colors
+- [ ] Formats for various platforms
 
 #### Design Assets
 - [ ] Code 
-  - [ ] Prototyping templates and resources
-    - [ ] React
-    - [ ] Vue
-    - [ ] Angular
-    - [ ] Static HTML
-    - [ ] Lodash / handlebars / swig etc.
-    - [ ] CSS toolkit
-      - [ ] Sass 
-      - [ ] Stylus
-      - [ ] Less
-      - [ ] Postcss
-      - [ ] Vanilla
+- [ ] Prototyping templates and resources
+  - [ ] React
+  - [ ] Vue
+  - [ ] Angular
+  - [ ] Static HTML
+  - [ ] Lodash / handlebars / swig etc.
+  - [ ] CSS toolkit
+    - [ ] Sass 
+    - [ ] Stylus
+    - [ ] Less
+    - [ ] Postcss
+    - [ ] Vanilla
 
 - [ ] Design Templates (XD, Photoshop, Illustrator, Sketch)
 - [ ] Icons
@@ -297,3 +333,12 @@ the styleguide in a way that reduces friction and unknowns for a new teammate or
   - 503
 - Help
 
+#### Further Reading
+
+Grid systems 
+A pattern language
+Strunk and White elements of style
+Elements of Typography Style
+AMA Manual of Style: http://www.amamanualofstyle.com
+ALA Standards Manual
+Chicago Manual of Style
