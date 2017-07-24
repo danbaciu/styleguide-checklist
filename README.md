@@ -10,16 +10,25 @@ In no particular order...
 ### Brand
 
 #### Logo
-    - [ ] Logomark 
-    - [ ] Logotype
-    - [ ] Logotype
-    - [ ] Clearspace rules
-    - [ ] Sizing rules
-    - [ ] Assets
-    - [ ] Appropriate asset usage
-    - [ ] Using against a background
-    - [ ] Color rules
-    - [ ] Usage restrictions
+- [ ] General usage guidelines
+- [ ] Logo
+- [ ] Logomark 
+- [ ] Logotype
+- [ ] Clearspace notes
+- [ ] Sizing notes
+- [ ] Color rules, notes, guides, restrictions
+- [ ] Using against 
+  - [ ] Background images
+  - [ ] Background gradients
+  - [ ] Background colors
+- [ ] Usage restrictions
+- [ ] Appropriate asset usage
+- [ ] Assets
+  - [ ] .eps
+  - [ ] .ai
+  - [ ] .sketch
+  - [ ] .psd
+  - [ ] .svg
 
 ### Design primitives
 
