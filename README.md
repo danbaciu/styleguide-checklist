@@ -3,14 +3,16 @@
 A checklist of potential things to consider when constructing a styleguide for
 a company or project. Currently a work in progress.
 
-In no particular order...
+# Table of Contents
+[General](#general)
+[Company Brand](#company-brand)
 
 ## General 
 - [ ] About
 - [ ] Overview
 - [ ] Getting Started
 
-## Brand
+## Company Brand
 
 ### Logo
 - [ ] General usage guidelines
@@ -66,25 +68,30 @@ This section might be documentation for 3rd party vendors or affiliates
 ### Print collateral
 - [ ] General rules and guidelines
 
-### Presentation Assets
+### Presentational Assets
 - [ ] Slide decks (powerpoint & keynote) 
 - [ ] Internal template
 - [ ] External template
 - [ ] Shared assets
   - [ ] Client / Vendor logo assets
 
-### Marketing materials
+### Misc materials
+- [ ] General guidelines and usage
 - [ ] T-shirts
-- [ ] General guidelines
-- [ ] T-shirt colors
+  - [ ] Materials
+  - [ ] Colors
 - [ ] Buttons
 - [ ] Pamphlets
 - [ ] Posters
 - [ ] Booth decals / structure
 - [ ] Billboards
 
+### Email
+- [ ] Email signatures
+
 ### Social media
-- Twitter
+
+#### Twitter
 - [ ] General usage guidelines
 - [ ] Avatar
 - [ ] Background Image
@@ -121,46 +128,44 @@ current and ordinary. - Aristotle
 - [ ] Acronyms
 
 ### Formatting
-  - [ ] Numbers 
-  - [ ] Dates
-  - [ ] Time
-  - [ ] Datetime/Number ranges
-  - [ ] Decimals, Fractions, Percentages
-  - [ ] Value ranges 
-  - [ ] Currency
-  - [ ] Telephone numbers
-  - [ ] Temperature
-  - [ ] URLS 
-  - [ ] Citations
-  - [ ] Quotes
-  - [ ] Contractions
-  - [ ] Author
-  - [ ] Address
-  - [ ] States, cities, countries
-  - [ ] About company
-  - [ ] About other companies
-  - [ ] Capitalization
-  - [ ] Slang
-  - [ ] Internationalization (i18n) considerations
-  - [ ] Copyright
-  - [ ] Trademarks
-  - [ ] Other symbols
-  - [ ] Capitalization
-  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
+- [ ] Numbers 
+- [ ] Dates
+- [ ] Time
+- [ ] Datetime/Number ranges
+- [ ] Decimals, Fractions, Percentages
+- [ ] Value ranges 
+- [ ] Currency
+- [ ] Telephone numbers
+- [ ] Temperature
+- [ ] URLS 
+- [ ] Citations
+- [ ] Quotes
+- [ ] Contractions
+- [ ] Author
+- [ ] Address
+- [ ] States, cities, countries
+- [ ] About company
+- [ ] About other companies
+- [ ] Capitalization
+- [ ] Slang
+- [ ] Internationalization (i18n) considerations
+- [ ] Copyright
+- [ ] Trademarks
+- [ ] Other symbols
+- [ ] Capitalization
+- [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
 
 ### Punctuation
-  - [ ] Colons
-  - [ ] Commas
-  - [ ] Dashes and hyphens
-  - [ ] Ellipses
-  - [ ] Periods
-  - [ ] Question marks
-  - [ ] Exclamation points
-  - [ ] Quotation marks
-  - [ ] Semicolons
-  - [ ] Ampersands
-
-
+- [ ] Colons
+- [ ] Commas
+- [ ] Dashes and hyphens
+- [ ] Ellipses
+- [ ] Periods
+- [ ] Question marks
+- [ ] Exclamation points
+- [ ] Quotation marks
+- [ ] Semicolons
+- [ ] Ampersands
 
 ## Design Primitives
 Base visual styles that can be used for both digital and analog assets.
@@ -172,16 +177,17 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Email
 - [ ] Print
 
-### Color
-  - [ ] General usage guidelines 
-  - [ ] Palette
-      - [ ] Name
-      - [ ] CMYK
-      - [ ] PMS 
-      - [ ] Hex
-      - [ ] rgb
-      - [ ] hsl
-  - [ ] Combinations of colors for use
+### Colors
+- [ ] General usage guidelines 
+- [ ] Palette
+- [ ] Combinations of colors for use
+- Color Swatch
+  - [ ] Color Name
+  - [ ] CMYK
+  - [ ] PMS 
+  - [ ] Hex
+  - [ ] RGB
+  - [ ] hsl
 
 ### Gradients
   - [ ] General usage guidelines
@@ -189,22 +195,25 @@ Base visual styles that can be used for both digital and analog assets.
   - [ ] Color values
   - [ ] Type(s)
   - [ ] Direction
-
+  
 ### Typography
+> Typography exists to honor content. - Robert Bringhurst
+
+> Read the text before designing it. - Robert Bringhurst
 
 #### Typefaces (Font family)
-- [ ] Typefaces used
-  - [ ] General usage and guidelines
-  - [ ] Web
-  - [ ] Email
-  - [ ] Print
+- [ ] General usage and guidelines
+- [ ] Web typeface(s)
+- [ ] Email typeface(s)
+- [ ] Print typeface(s)
+- [ ] iOS typeface(s)
+- [ ] Android typeface(s)
 
 #### Type scale
 - [ ] General usage and guidelines
-- [ ] Values 
-  - [ ] Web
-  - [ ] Email
-  - [ ] Print
+- [ ] Web
+- [ ] Email
+- [ ] Print
 
 #### Leading / line-height
 - [ ] General usage and guidelines
@@ -239,23 +248,17 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] i18n considerations (Right to Left, Left to Right)
 - [ ] Vertical Alignment general usage guidelines
 
-#### Headings
-- [ ] General usage and guidelines
-- [ ] Font size changes across breakpoints
-
-
 ###  Borders
-
 - [ ] Colors
 - [ ] Styles    
 - [ ] Size (width)
 - [ ] Radii
 
 ### Drop & Box Shadows
-  - [ ] Colors
-  - [ ] Blur
-  - [ ] Size
-  - [ ] Direction
+- [ ] Colors
+- [ ] Blur
+- [ ] Size
+- [ ] Direction
 
 ### Layout
 - [ ] Spacing (margins and padding)
@@ -271,6 +274,10 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Component layouts / structure
 - [ ] Page layouts
 - [ ] Vertical alignment (the whens and hows)
+
+#### Headings
+- [ ] General usage and guidelines
+- [ ] Font size changes across breakpoints
 
 ### Graphs and Data Visualizations
 - [ ] General usage and guidelines
@@ -294,16 +301,11 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Colors
 - [ ] Use w and w/o text
 - [ ] Alignment
-
-### Misc. 
-- [ ] Content organization
-- [ ] Navigation patterns
-
-### States
-- [ ] Error states 
-- [ ] Success states 
-- [ ] Empty states
-- [ ] Loading states
+- [ ] Collect icon assets
+- [ ] Icon 
+- [ ] Name
+- [ ] Colors
+- [ ] Formats for various platforms
 
 
 ### TBN
@@ -313,24 +315,7 @@ Base visual styles that can be used for both digital and analog assets.
 - Third party site integrations (zendesk)
 - Logged in app
 
-#### Theming
-- [ ] Shadows
-- [ ] Border radii 
-- [ ] Border widths 
-- [ ] Border colors
-- [ ] Colors
-- [ ] Palette
-- [ ] Appropriate combinations
-- [ ] Constraints for text or background
-- [ ] Gradients
 
-
-#### Icons
-- [ ] Collect icon assets
-- [ ] Icon 
-- [ ] Name
-- [ ] Colors
-- [ ] Formats for various platforms
 
 ## UI Patterns
 
@@ -342,7 +327,16 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Reading
 - [ ] Updating
 - [ ] Deleting
+### Navigation
 
+### States
+- [ ] Error states 
+- [ ] Success states 
+- [ ] Empty states
+- [ ] Loading states
+
+### Misc. 
+- [ ] Content organization
 
 ## Design Assets & Resources
 
@@ -362,13 +356,11 @@ aspects of the style guide.
   - [ ] Postcss
   - [ ] Vanilla
 
-###  
+### File Downloads
 - [ ] Design Templates (XD, Photoshop, Illustrator, Sketch)
 - [ ] Icons
 - [ ] Typefaces (Actual font files, useful for print design and using apps like photoshop) 
 
-## Email
-- [ ] Email signatures 
 
 ## Code
 
@@ -409,15 +401,6 @@ understand what the current reality is
 - [ ] Change credit card
 - [ ] Change address
 
-## Consuming the styleguide
-
-- Who are all of the people who will consume this?
-- What are their biggest needs?
-- What needs do they not have that we are assuming they have?
-- Onboarding a new designer. What is their process? How can we structure
-the styleguide in a way that reduces friction and unknowns for a new teammate or someone collaborating with us?
-- Video tutorials
-- Written guides and visual examples
 
 ## Pages 
 Common pages. Some of these might be more appropriate as sections 
@@ -433,12 +416,30 @@ on a page depending on your particular content.
 - [ ] 500
 - [ ] 503
 
-#### Further Reading
+
+## Consuming the styleguide
+
+- Who is the audience?
+- What are their biggest needs?
+- What needs do they not have that we are assuming they have?
+- Onboarding a new designer. What is their process? How can we structure the
+  styleguide in a way that reduces friction and unknowns for a new teammate or
+  person that is collaborating with us?
+- Video tutorials
+- Written guides and visual examples
+- Resources?
+
+## Further Reading
+While style guides on the web are a relatively new phenomenon, style guides
+themselves have existed for more than a thousand years.
 
 - Grid systems 
 - A Pattern Language
-- Strunk and White elements of style
+- Strunk and White:  The Elements of Style
 - Elements of Typography Style
+- ISO 690
 - AMA Manual of Style: http://www.amamanualofstyle.com
 - ALA Standards Manual
+- MLA Handbook
 - Chicago Manual of Style
+- The New York Times Manual
