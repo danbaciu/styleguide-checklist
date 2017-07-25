@@ -5,10 +5,6 @@ a company or project. Currently a work in progress.
 
 In no particular order...
 
-- General 
-- Brand
-  - Logo
-
 ## General 
 - [ ] About
 - [ ] Overview
@@ -109,6 +105,9 @@ In no particular order...
 - [ ] Aspect ratios
 - [ ] Compression formats
 - [ ] Closed captioning
+- [ ] Autoplay
+- [ ] Initial volume
+- [ ] Platforms
 
 ### Legal
 - [ ] Using company Trademarks
@@ -393,15 +392,15 @@ understand what the current reality is
 2. Collect prior print collateral: letterhead, marketing etc. 
 3. Collect email screenshots
 4. Visualize flows for common patterns
-  - Log in
-  - Sign up
-  - Delete account
-  - Lost password reset
-  - Change email
-  - Change credit card
-  - Change address
+- [ ] Log in
+- [ ] Sign up
+- [ ] Delete account
+- [ ] Lost password reset
+- [ ] Change email
+- [ ] Change credit card
+- [ ] Change address
 
-#### Consuming the styleguide
+## Consuming the styleguide
 
 - Who are all of the people who will consume this?
 - What are their biggest needs?
@@ -411,20 +410,26 @@ the styleguide in a way that reduces friction and unknowns for a new teammate or
 - Video tutorials
 - Written guides and visual examples
 
-#### Common pages
-- Landing 
-- Error pages
-  - 404
-  - 500
-  - 503
-- Help
+## Pages 
+Common pages. Some of these might be more appropriate as sections 
+on a page depending on your particular content.
+
+- [ ] Home 
+- [ ] About
+- [ ] Contact
+- [ ] Help
+
+### Error pages
+- [ ] 404
+- [ ] 500
+- [ ] 503
 
 #### Further Reading
 
-Grid systems 
-A Pattern Language
-Strunk and White elements of style
-Elements of Typography Style
-AMA Manual of Style: http://www.amamanualofstyle.com
-ALA Standards Manual
-Chicago Manual of Style
+- Grid systems 
+- A Pattern Language
+- Strunk and White elements of style
+- Elements of Typography Style
+- AMA Manual of Style: http://www.amamanualofstyle.com
+- ALA Standards Manual
+- Chicago Manual of Style
