@@ -231,16 +231,16 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Use w and w/o text
 - [ ] Alignment
 
-
+### Misc. 
 - [ ] Content organization
 - [ ] Navigation patterns
 - [ ] Notification patterns
+
+### States
 - [ ] Error states 
 - [ ] Success states 
 - [ ] Empty states
 - [ ] Loading states
-- [ ] Illustration / Graphics guides
-
 
 ### Print collateral
 - [ ] General rules and guidelines
@@ -267,12 +267,14 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] General usage guidelines
 - [ ] Avatar
 - [ ] Background Image
-- Facebook 
+
+#### Facebook 
 - [ ] General usage guidelines
 - [ ] Profile photo
 - [ ] Background Image
 - [ ] Photo albums
-- Vimeo / Youtube (Support videos?)
+
+#### Vimeo / Youtube (Support videos?)
 - [ ] Avatar
 
 ### TBN
