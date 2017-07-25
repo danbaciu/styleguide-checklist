@@ -5,6 +5,10 @@ a company or project. Currently a work in progress.
 
 In no particular order...
 
+- General 
+- Brand
+  - Logo
+
 ## General 
 - [ ] About
 - [ ] Overview
@@ -33,10 +37,10 @@ In no particular order...
   - [ ] .psd
   - [ ] .svg
 
-- [ ] Illustration styles
-
 ### Voice and Tone 
 - [ ] General guidelines 
+- [ ] Examples of acceptable text
+- [ ] Examples of unacceptable text
 - [ ] Marketing
 - [ ] App
 - [ ] Gender
@@ -44,15 +48,33 @@ In no particular order...
 - [ ] Ag
 - [ ] Vision
 - [ ] Personal attributes
-- [ ] Grammar 
+- [ ] US vs UK 
+- [ ] Grammar
+- [ ] Formatting
   - [ ] Numbers 
   - [ ] Dates
   - [ ] Time
+  - [ ] Datetime/Number ranges
   - [ ] Decimals, Fractions, Percentages
   - [ ] Value ranges 
   - [ ] Currency
   - [ ] Telephone numbers
   - [ ] Temperature
+  - [ ] URLS 
+  - [ ] Citations
+  - [ ] Quotes
+  - [ ] Author
+  - [ ] Address
+  - [ ] States, cities, countries
+  - [ ] About company
+  - [ ] About other companies
+  - [ ] Slang
+  - [ ] Internationalization (i18n) considerations
+  - [ ] Copyright
+  - [ ] Trademarks
+  - [ ] Other symbols
+  - [ ] Capitalization
+  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
   - [ ] Punctuation usage
     - [ ] Colons
     - [ ] Commas
@@ -64,18 +86,14 @@ In no particular order...
     - [ ] Quotation marks
     - [ ] Semicolons
     - [ ] Ampersands
-  - [ ] URLS 
-  - [ ] Address
-  - [ ] States, cities, countries
-  - [ ] About company
-  - [ ] About other companies
-  - [ ] Slang
-  - [ ] Internationalization (i18n) notes 
-    - [ ] Process
-    - [ ] Considerations
-  - [ ] Copyright
-  - [ ] Trademarks
-  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
+
+#### Formatting 
+- [ ] Date range
+- [ ] Time range
+- [ ] Citations
+- [ ] Quotes
+- [ ] Author
+- [ ] Capitalization 
 
 ### Illustrations / Digital Media
 
@@ -87,6 +105,10 @@ In no particular order...
 - [ ] How to combine with text
 
 ### Videos
+- [ ] General guidelines and usage
+- [ ] Aspect ratios
+- [ ] Compression formats
+- [ ] Closed captioning
 
 ### Legal
 - [ ] Using company Trademarks
@@ -96,6 +118,41 @@ In no particular order...
 ### Displaying Company Assets 
 This section might be documentation for 3rd party vendors or affiliates
 - [ ] Outdated graphics 
+
+### Print collateral
+- [ ] General rules and guidelines
+
+### Presentation Assets
+- [ ] Slide decks (powerpoint & keynote) 
+- [ ] Internal template
+- [ ] External template
+- [ ] Shared assets
+  - [ ] Client / Vendor logo assets
+
+### Marketing materials
+- [ ] T-shirts
+- [ ] General guidelines
+- [ ] T-shirt colors
+- [ ] Buttons
+- [ ] Pamphlets
+- [ ] Posters
+- [ ] Booth decals / structure
+- [ ] Billboards
+
+### Social media
+- Twitter
+- [ ] General usage guidelines
+- [ ] Avatar
+- [ ] Background Image
+
+#### Facebook 
+- [ ] General usage guidelines
+- [ ] Profile photo
+- [ ] Background Image
+- [ ] Photo albums
+
+#### Vimeo / Youtube (Support videos?)
+- [ ] Avatar
 
 ## Design Primitives
 Base visual styles that can be used for both digital and analog assets.
@@ -174,15 +231,10 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] i18n considerations (Right to Left, Left to Right)
 - [ ] Vertical Alignment general usage guidelines
 
-#### Formatting 
-- [ ] Dates
-- [ ] Time
-- [ ] Date range
-- [ ] Time range
-- [ ] Citations
-- [ ] Quotes
-- [ ] Author
-- [ ] Capitalization 
+#### Headings
+- [ ] General usage and guidelines
+- [ ] Font size changes across breakpoints
+
 
 ###  Borders
 
@@ -199,11 +251,15 @@ Base visual styles that can be used for both digital and analog assets.
 
 ### Layout
 - [ ] Spacing (margins and padding)
+  - [ ] General usage and guidelines
+  - [ ] Values
+  - [ ] Ratio
 - [ ] Breakpoints 
-- Grid
+- [ ] Grid
   - [ ] Gutters 
   - [ ] Column sizing
   - [ ] Column divisions
+  - [ ] Responsive patterns (Collapsing and expanding columns)
 - [ ] Component layouts / structure
 - [ ] Page layouts
 - [ ] Vertical alignment (the whens and hows)
@@ -234,7 +290,6 @@ Base visual styles that can be used for both digital and analog assets.
 ### Misc. 
 - [ ] Content organization
 - [ ] Navigation patterns
-- [ ] Notification patterns
 
 ### States
 - [ ] Error states 
@@ -242,40 +297,6 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Empty states
 - [ ] Loading states
 
-### Print collateral
-- [ ] General rules and guidelines
-
-### Presentation Assets
-- [ ] Slide decks (powerpoint & keynote) 
-- [ ] Internal template
-- [ ] External template
-- [ ] Shared assets
-  - [ ] Client / Vendor logo assets
-
-### Marketing materials
-- [ ] T-shirts
-- [ ] General guidelines
-- [ ] T-shirt colors
-- [ ] Buttons
-- [ ] Pamphlets
-- [ ] Posters
-- [ ] Booth decals / structure
-- [ ] Billboards
-
-### Social media
-- Twitter
-- [ ] General usage guidelines
-- [ ] Avatar
-- [ ] Background Image
-
-#### Facebook 
-- [ ] General usage guidelines
-- [ ] Profile photo
-- [ ] Background Image
-- [ ] Photo albums
-
-#### Vimeo / Youtube (Support videos?)
-- [ ] Avatar
 
 ### TBN
 - Existing websites
@@ -303,7 +324,22 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Colors
 - [ ] Formats for various platforms
 
+## UI Patterns
+
+### Tables
+### Buttons
+### Pagination & Infinite Scroll  
+### Actions
+- [ ] Creating
+- [ ] Reading
+- [ ] Updating
+- [ ] Deleting
+
+
 ## Design Assets & Resources
+
+These are things people can download and use to play with and implement various
+aspects of the style guide.
 
 ### Code 
 - [ ] Prototyping templates and resources 
