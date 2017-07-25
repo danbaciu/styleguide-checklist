@@ -33,65 +33,10 @@ In no particular order...
   - [ ] .psd
   - [ ] .svg
 
-### Voice and Tone 
-- [ ] General guidelines 
-- [ ] Examples of acceptable text
-- [ ] Examples of unacceptable text
-- [ ] Marketing
-- [ ] App
-- [ ] Gender
-- [ ] Pronouns
-- [ ] Ag
-- [ ] Vision
-- [ ] Personal attributes
-- [ ] US vs UK 
-- [ ] Grammar
-- [ ] Formatting
-  - [ ] Numbers 
-  - [ ] Dates
-  - [ ] Time
-  - [ ] Datetime/Number ranges
-  - [ ] Decimals, Fractions, Percentages
-  - [ ] Value ranges 
-  - [ ] Currency
-  - [ ] Telephone numbers
-  - [ ] Temperature
-  - [ ] URLS 
-  - [ ] Citations
-  - [ ] Quotes
-  - [ ] Author
-  - [ ] Address
-  - [ ] States, cities, countries
-  - [ ] About company
-  - [ ] About other companies
-  - [ ] Slang
-  - [ ] Internationalization (i18n) considerations
-  - [ ] Copyright
-  - [ ] Trademarks
-  - [ ] Other symbols
-  - [ ] Capitalization
-  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
-  - [ ] Punctuation usage
-    - [ ] Colons
-    - [ ] Commas
-    - [ ] Dashes and hyphens
-    - [ ] Ellipses
-    - [ ] Periods
-    - [ ] Question marks
-    - [ ] Exclamation points
-    - [ ] Quotation marks
-    - [ ] Semicolons
-    - [ ] Ampersands
-
-#### Formatting 
-- [ ] Date range
-- [ ] Time range
-- [ ] Citations
-- [ ] Quotes
-- [ ] Author
-- [ ] Capitalization 
-
 ### Illustrations / Digital Media
+- [ ] General guidelines and usage
+- [ ] Examples
+- [ ] Resources
 
 ### Photos
 - [ ] General guidelines and usage
@@ -152,6 +97,70 @@ This section might be documentation for 3rd party vendors or affiliates
 
 #### Vimeo / Youtube (Support videos?)
 - [ ] Avatar
+
+## Writing
+
+> Style to be good must be clear. Clearness is secured by using words that are
+current and ordinary. - Aristotle
+
+### Voice and Tone
+- [ ] General guidelines and overview
+- [ ] Goals
+- [ ] Principles
+- [ ] Examples of acceptable text
+- [ ] Examples of unacceptable text
+- [ ] Marketing
+- [ ] App
+- [ ] Gender
+- [ ] Pronouns
+- [ ] Age
+- [ ] Vision
+- [ ] Personal attributes
+- [ ] US vs UK 
+- [ ] Grammar
+- [ ] Acronyms
+
+### Formatting
+  - [ ] Numbers 
+  - [ ] Dates
+  - [ ] Time
+  - [ ] Datetime/Number ranges
+  - [ ] Decimals, Fractions, Percentages
+  - [ ] Value ranges 
+  - [ ] Currency
+  - [ ] Telephone numbers
+  - [ ] Temperature
+  - [ ] URLS 
+  - [ ] Citations
+  - [ ] Quotes
+  - [ ] Contractions
+  - [ ] Author
+  - [ ] Address
+  - [ ] States, cities, countries
+  - [ ] About company
+  - [ ] About other companies
+  - [ ] Capitalization
+  - [ ] Slang
+  - [ ] Internationalization (i18n) considerations
+  - [ ] Copyright
+  - [ ] Trademarks
+  - [ ] Other symbols
+  - [ ] Capitalization
+  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
+
+### Punctuation
+  - [ ] Colons
+  - [ ] Commas
+  - [ ] Dashes and hyphens
+  - [ ] Ellipses
+  - [ ] Periods
+  - [ ] Question marks
+  - [ ] Exclamation points
+  - [ ] Quotation marks
+  - [ ] Semicolons
+  - [ ] Ampersands
+
+
 
 ## Design Primitives
 Base visual styles that can be used for both digital and analog assets.
