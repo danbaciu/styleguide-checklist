@@ -1,11 +1,66 @@
 # Styleguide Checklist
 
-A checklist of potential things to consider when constructing a styleguide for
-a company or project. Currently a work in progress.
+A style guide establishes and enforces style to improve communication.
+
+This is a checklist of potential things that might want to be considered when
+constructing a style guide for a company or project. Currently a work in
+progress so please feel free to open issues or pull requests.
 
 # Table of Contents
-[General](#general)
-[Company Brand](#company-brand)
+- [General](#general)
+- [Company Brand](#company-brand)
+  - [Logo](#logo)
+  - [Illustrations and Digital Media](#illustrations-and-digital-media)
+  - [Photos](#photos)
+  - [Videos](#videos)
+  - [Legal](#legal)
+  - [Displaying Company Assets ](#displaying-company-assets)
+  - [Presentational Assets](#presentational-assets)
+  - [Misc materials](#mis-materials)
+  - [Email](#email)
+  - [Social media](#social-media)
+- [Writing](#writing)
+  - [Voice and Tone](#voice-and-tone)
+  - [Formatting](#formatting)
+  - [Punctuation](#punctuation)
+- [Design Primitives](#design-primitives)
+  - [Units of Measure](#units-of-measure)
+  - [Colors](#colors)
+  - [Gradients](#gradients)
+  - [Typography](#typography)
+    - [Typefaces](#typefaces)
+    - [Type scale](#type-scale)
+    - [Leading / line-height](#leading--line-height)
+    - [Tracking / letter-spacing](#tracking--letter-spacing)
+    - [Font weights](#font-weights)
+    - [Measure](#measure)
+    - [Text Alignment](#text-alignment)
+  - [Borders](#borders)
+  - [Drop & Box Shadows](#drop-box-shadows)
+  - [Layout](#layout)
+    - Spacing
+    - Breakpoints 
+    - Grid
+    - Vertical alignment
+  - [Headings](#headings)
+  - [Graphs and Data Visualizations](#graphs-and-data-visualizations)
+  - [Animations](#animations)
+  - [Icons ](#icons)
+  - [Misc](#misc)
+    - [UI Patterns](#ui-patterns)
+    - [Text](#text)
+    - [Headings](#headings)
+    - [Links](#links)
+    - [Inputs](#inputs)
+    - [Forms](#forms)
+    - [Tables](#tables)
+    - [Buttons](#buttons)
+    - [Pagination](#pagination)
+    - [Actions](#actions)
+    - [Navigation](#navigaiton)
+    - [States](#states)
+- [Consuming the styleguide](#consuming-the-styleguide)
+- [Further Reading](#further-reading)
 
 ## General 
 - [ ] About
@@ -35,7 +90,7 @@ a company or project. Currently a work in progress.
   - [ ] .psd
   - [ ] .svg
 
-### Illustrations / Digital Media
+### Illustrations and Digital Media
 - [ ] General guidelines and usage
 - [ ] Examples
 - [ ] Resources
@@ -65,10 +120,8 @@ a company or project. Currently a work in progress.
 This section might be documentation for 3rd party vendors or affiliates
 - [ ] Outdated graphics 
 
-### Print collateral
-- [ ] General rules and guidelines
-
 ### Presentational Assets
+- [ ] General rules and guidelines
 - [ ] Slide decks (powerpoint & keynote) 
 - [ ] Internal template
 - [ ] External template
@@ -80,6 +133,7 @@ This section might be documentation for 3rd party vendors or affiliates
 - [ ] T-shirts
   - [ ] Materials
   - [ ] Colors
+  - [ ] Company Logo Placement
 - [ ] Buttons
 - [ ] Pamphlets
 - [ ] Posters
@@ -307,27 +361,38 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Colors
 - [ ] Formats for various platforms
 
-
-### TBN
+### Misc
 - Existing websites
 - New websites and pages 
 - Internal tools
 - Third party site integrations (zendesk)
 - Logged in app
 
-
-
 ## UI Patterns
+> Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem. - A Pattern Language 
 
+### Text
+### Headings
+### Links
+### Inputs
+### Forms
 ### Tables
+
 ### Buttons
+
 ### Pagination & Infinite Scroll  
+
 ### Actions
 - [ ] Creating
 - [ ] Reading
 - [ ] Updating
 - [ ] Deleting
+
 ### Navigation
+- [ ] App
+- [ ] Page
+- [ ] Intra
+- [ ] Inter
 
 ### States
 - [ ] Error states 
