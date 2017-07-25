@@ -5,6 +5,11 @@ a company or project. Currently a work in progress.
 
 In no particular order...
 
+## General 
+- [ ] About
+- [ ] Overview
+- [ ] Getting Started
+
 ## Brand
 
 ### Logo
@@ -28,8 +33,30 @@ In no particular order...
   - [ ] .psd
   - [ ] .svg
 
+### Illustrations / Digital Media
+
+### Photos
+
+### Videos
+
+### Legal
+- [ ] Using company Trademarks
+- [ ] Using company Copyrights
+- [ ] Trademark symbols 
+
+### Displaying Company Assets 
+This section might be documentation for 3rd party vendors or affiliates
+- [ ] Outdated graphics 
+
 ## Design Primitives
 Base visual styles that can be used for both digital and analog assets.
+
+### Units of Measure
+- [ ] Names
+- [ ] Symbol usage
+- [ ] Web (note and document if multiple units are used)
+- [ ] Email
+- [ ] Print
 
 ### Color
   - [ ] General usage guidelines 
@@ -178,7 +205,7 @@ Base visual styles that can be used for both digital and analog assets.
   - [ ] Time
   - [ ] Decimals, Fractions, Percentages
   - [ ] Value ranges 
-  - [ ] Money
+  - [ ] Currency
   - [ ] Telephone numbers
   - [ ] Temperature
   - [ ] Punctuation usage
@@ -213,8 +240,6 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Empty states
 - [ ] Loading states
 - [ ] Illustration / Graphics guides
-- [ ] Photo usage and development
-- [ ] Where photos are sourced
 
 
 ### Print collateral
@@ -276,30 +301,53 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Colors
 - [ ] Formats for various platforms
 
-#### Design Assets
-- [ ] Code 
-- [ ] Prototyping templates and resources
+## Design Assets & Resources
+
+### Code 
+- [ ] Prototyping templates and resources 
   - [ ] React
   - [ ] Vue
   - [ ] Angular
   - [ ] Static HTML
-  - [ ] Lodash / handlebars / swig etc.
-  - [ ] CSS toolkit
-    - [ ] Sass 
-    - [ ] Stylus
-    - [ ] Less
-    - [ ] Postcss
-    - [ ] Vanilla
+- [ ] CSS toolkit
+  - [ ] Sass 
+  - [ ] Stylus
+  - [ ] Less
+  - [ ] Postcss
+  - [ ] Vanilla
 
+###  
 - [ ] Design Templates (XD, Photoshop, Illustrator, Sketch)
 - [ ] Icons
 - [ ] Typefaces (Actual font files, useful for print design and using apps like photoshop) 
 
+## Email
+- [ ] Email signatures 
+
+## Code
+
+### API
+- [ ] General guidelines and usage
+- [ ] Errors 
+- [ ] Naming patterns
+- [ ] Changelog
+
+### Coding style guides
+You might find it appropriate
+- [ ] General rules and guidelines
+- [ ] Html
+- [ ] Js
+- [ ] Css
+- [ ] TBD
+
+### Git
+- [ ] Commit comment formats
+- [ ] Commit comment grammar
+- [ ] Commit templates
 
 ## Style Audit
 To understand where we need to go and how we are going to get there, we need to
 understand what the current reality is
-
 
 1. Audit the existing styles for each separate front-end codebase
   - Find intersections of common styles
@@ -336,7 +384,7 @@ the styleguide in a way that reduces friction and unknowns for a new teammate or
 #### Further Reading
 
 Grid systems 
-A pattern language
+A Pattern Language
 Strunk and White elements of style
 Elements of Typography Style
 AMA Manual of Style: http://www.amamanualofstyle.com
