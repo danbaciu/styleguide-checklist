@@ -33,9 +33,58 @@ In no particular order...
   - [ ] .psd
   - [ ] .svg
 
+- [ ] Illustration styles
+
+### Voice and Tone 
+- [ ] General guidelines 
+- [ ] Marketing
+- [ ] App
+- [ ] Gender
+- [ ] Pronouns
+- [ ] Ag
+- [ ] Vision
+- [ ] Personal attributes
+- [ ] Grammar 
+  - [ ] Numbers 
+  - [ ] Dates
+  - [ ] Time
+  - [ ] Decimals, Fractions, Percentages
+  - [ ] Value ranges 
+  - [ ] Currency
+  - [ ] Telephone numbers
+  - [ ] Temperature
+  - [ ] Punctuation usage
+    - [ ] Colons
+    - [ ] Commas
+    - [ ] Dashes and hyphens
+    - [ ] Ellipses
+    - [ ] Periods
+    - [ ] Question marks
+    - [ ] Exclamation points
+    - [ ] Quotation marks
+    - [ ] Semicolons
+    - [ ] Ampersands
+  - [ ] URLS 
+  - [ ] Address
+  - [ ] States, cities, countries
+  - [ ] About company
+  - [ ] About other companies
+  - [ ] Slang
+  - [ ] Internationalization (i18n) notes 
+    - [ ] Process
+    - [ ] Considerations
+  - [ ] Copyright
+  - [ ] Trademarks
+  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
+
 ### Illustrations / Digital Media
 
 ### Photos
+- [ ] General guidelines and usage
+- [ ] Saliency
+- [ ] Content
+- [ ] Composition
+- [ ] How to combine with text
 
 ### Videos
 
@@ -182,55 +231,6 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Use w and w/o text
 - [ ] Alignment
 
-### Imagery
-  - [ ] Photo guidelines
-    - [ ] Saliency
-    - [ ] Content
-    - [ ] Composition
-    - [ ] How to combine with text
-  - [ ] Illustration styles
-
-### Voice and Tone 
-- [ ] General guidelines
-- [ ] Marketing
-- [ ] App
-- [ ] Gender
-- [ ] Pronouns
-- [ ] Age
-- [ ] Vision 
-- [ ] Personal attributes
-- [ ] Grammar 
-  - [ ] Numbers 
-  - [ ] Dates
-  - [ ] Time
-  - [ ] Decimals, Fractions, Percentages
-  - [ ] Value ranges 
-  - [ ] Currency
-  - [ ] Telephone numbers
-  - [ ] Temperature
-  - [ ] Punctuation usage
-    - [ ] Colons
-    - [ ] Commas
-    - [ ] Dashes and hyphens
-    - [ ] Ellipses
-    - [ ] Periods
-    - [ ] Question marks
-    - [ ] Exclamation points
-    - [ ] Quotation marks
-    - [ ] Semicolons
-    - [ ] Ampersands
-  - [ ] URLS 
-  - [ ] Address
-  - [ ] States, cities, countries
-  - [ ] About company
-  - [ ] About other companies
-  - [ ] Slang
-  - [ ] Internationalization (i18n) notes 
-    - [ ] Process
-    - [ ] Considerations
-  - [ ] Copyright
-  - [ ] Trademarks
-  - [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
 
 - [ ] Content organization
 - [ ] Navigation patterns
