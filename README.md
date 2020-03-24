@@ -1,30 +1,37 @@
 # Styleguide Checklist
 
-A style guide establishes and enforces style to improve communication.
+A brand styleguide aims to establish a central reference document for all touchpoint standards and patterns, with the goal of increasing consistency and improving communication.
 
-This is a checklist of potential things that might want to be considered when
-constructing a style guide for a company or project. Currently a work in
-progress so please feel free to open issues or pull requests.
+This is a checklist of potential things that might want to be considered when constructing a styleguide for a company or project. Currently a work in progress so please feel free to open issues or pull requests.
 
-# Table of Contents
+## Table of Contents
+- [Planning your styleguide](#planning-your-styleguide)
+  - [Audience](#audience)
+  - [Onboarding](#onboarding)
+  - [Guidance](#guidance)
+  - [Inspiration](#inspiration)
+  - [Tools](#tools)
 - [General](#general)
-- [Company Brand](#company-brand)
+- [Brand](#brand)
+  - [Principles](#principles)
   - [Logo](#logo)
   - [Illustrations and Digital Media](#illustrations-and-digital-media)
   - [Photos](#photos)
   - [Videos](#videos)
   - [Legal](#legal)
-  - [Displaying Company Assets ](#displaying-company-assets)
-  - [Presentational Assets](#presentational-assets)
-  - [Misc materials](#mis-materials)
-  - [Email](#email)
+  - [Presentational assets](#presentational-assets)
+  - [Email marketing](#email-marketing)
   - [Social media](#social-media)
+  - [Misc materials](#misc-materials)
 - [Writing](#writing)
   - [Voice and Tone](#voice-and-tone)
-  - [Formatting](#formatting)
+  - [Writing about people](#writing-about-people)
+  - [Accessibility](#accessibility)
+  - [Grammar and mechanics](#grammar-and-mechanics)
   - [Punctuation](#punctuation)
+  - [Words we like and dislike](#words-we-like-and-dislike)
+  - [Content type guidelines](#content-type-guidelines)
 - [Design Primitives](#design-primitives)
-  - [Units of Measure](#units-of-measure)
   - [Colors](#colors)
   - [Gradients](#gradients)
   - [Typography](#typography)
@@ -32,68 +39,123 @@ progress so please feel free to open issues or pull requests.
     - [Type scale](#type-scale)
     - [Leading / line-height](#leading--line-height)
     - [Tracking / letter-spacing](#tracking--letter-spacing)
-    - [Font weights](#font-weights)
     - [Measure](#measure)
     - [Text Alignment](#text-alignment)
+  - [Iconography](#iconography)
   - [Borders](#borders)
   - [Drop & Box Shadows](#drop-box-shadows)
   - [Layout](#layout)
-    - Spacing
-    - Breakpoints 
-    - Grid
-    - Vertical alignment
-  - [Headings](#headings)
   - [Graphs and Data Visualizations](#graphs-and-data-visualizations)
-  - [Animations](#animations)
-  - [Icons ](#icons)
-  - [Misc](#misc)
+  - [Motion and animation](#motion-and-animation)
 - [UI Patterns](#ui-patterns)
+  - [Accessibility](#accessibility)
   - [Text](#text)
-  - [Headings](#headings)
   - [Links](#links)
   - [Inputs](#inputs)
   - [Forms](#forms)
   - [Tables](#tables)
   - [Buttons](#buttons)
-  - [Pagination](#pagination)
+  - [Navigation & Pagination](#navigation--pagination)
+  - [Alerts & Modals](#alerts--modals)
   - [Actions](#actions)
-  - [Navigation](#navigaiton)
   - [States](#states)
-- [Consuming the styleguide](#consuming-the-styleguide)
+- [Design Assets & Resources](#design-assets-and-resources)
+  - [File Downloads](#file-downloads)
+  - [Code Downloads](#code-downloads)
+- [Code](#code)
+  - [API](#api)
+  - [Coding styleguides](#coding-style-guides)
+  - [Git](#git)
+- [Pages](#pages)
+  - [Error pages](#error-pages)
+  - [Legal pages](#legal-pages)
+- [Style Audit](#style-audit)
 - [Further Reading](#further-reading)
 
-## General 
-- [ ] About
+## Planning your styleguide
+
+A series of key questions to ask yourself in the initial phase of planning out the structure and layout of your styleguide.
+
+### Audience
+- Who is the audience?
+- What are their biggest needs?
+- What needs do they not have, that we are assuming they have?
+- How will they use it?
+
+### Onboarding
+- What is their process? How can we structure the styleguide in a way that reduces friction and unknowns for a new teammate or person that is collaborating with us?
+- New team members (internal) vs freelancers & collaborators (external) – what are the differences (if any) in how they will consume the styleguide and what they require in it?
+
+### Guidance
+- Video tutorials – what can we quickly produce to ease understanding in critical or complex points?
+- Written guides and visual examples – how do we write the documentation in a way that strikes a balance between too little and too much?
+
+### Inspiration
+You can find a comprehensive list of styleguides and design system [over here](https://github.com/alexpate/awesome-design-systems), curated by [@alexpate](https://github.com/alexpate/). Use it to see how other orgs have structured their libraries based on comprehensiveness, organization size, and industry.
+
+### Tools
+A series of apps that can be used to construct the styleguide and easily keep it updated. Choose according to your requirements and needs, as each one as different features and integrations.
+
+- [Lingo App](https://www.lingoapp.com/)
+- [InVision Craft Library](https://www.invisionapp.com/craft#library)
+- [UXPin Design System](https://www.uxpin.com/products/uxpin-systems/modular-design-systems)
+- [Dropbox Paper](https://www.dropbox.com/paper)
+- [Pattern Lab](http://patternlab.io/)
+
+
+## General
+Populate this with simple messaging meant to introduce the styleguide and define its purpose, audience, and feedback / iteration process.
+
+- [ ] Introduction
 - [ ] Overview
 - [ ] Getting Started
+- [ ] Table of Contents
+- [ ] Feedback / Contact
 
-## Company Brand
+## Brand
+As brand consistency is one of the major goals of a styleguide, make sure to clearly define as many variables in how it's presented, both internally and externally.
+
+### Principles
+- [ ] Personality
+- [ ] Values
+- [ ] Goals
 
 ### Logo
 - [ ] General usage guidelines
 - [ ] Logo
-- [ ] Logomark 
-- [ ] Logotype
-- [ ] Clearspace notes
-- [ ] Sizing notes
-- [ ] Color rules, notes, guides, restrictions
-- [ ] Using against 
+  - [ ] Logomark
+  - [ ] Logotype
+  - [ ] Clear space notes
+  - [ ] Sizing notes
+- [ ] Color usage and restrictions
+- [ ] Using against:
   - [ ] Background images
   - [ ] Background gradients
   - [ ] Background colors
-- [ ] Usage restrictions
-- [ ] Appropriate asset usage
+- [ ] Sub-brand / Product Logos
+  - [ ] Main logo lockup
+  - [ ] Standards
+  - [ ] Color usage
+- [ ] Use restrictions
+- [ ] Appropriate asset use
 - [ ] Assets
   - [ ] .eps
-  - [ ] .ai
-  - [ ] .sketch
+  - [ ] .jpg
+  - [ ] .png
   - [ ] .psd
+  - [ ] .sketch
   - [ ] .svg
 
 ### Illustrations and Digital Media
 - [ ] General guidelines and usage
-- [ ] Examples
+- [ ] Role and principles
+- [ ] Types
+  - [ ] Hero / Complex & large
+  - [ ] Spot Hero / Complex & small
+  - [ ] Spot / Simple & small
+- [ ] Best practices
 - [ ] Resources
+- [ ] Copyright, attribution, and licensing
 
 ### Photos
 - [ ] General guidelines and usage
@@ -101,6 +163,9 @@ progress so please feel free to open issues or pull requests.
 - [ ] Content
 - [ ] Composition
 - [ ] How to combine with text
+- [ ] Examples
+- [ ] Sources
+- [ ] Copyright, attribution, and licensing
 
 ### Videos
 - [ ] General guidelines and usage
@@ -108,108 +173,136 @@ progress so please feel free to open issues or pull requests.
 - [ ] Compression formats
 - [ ] Closed captioning
 - [ ] Autoplay
-- [ ] Initial volume
+- [ ] Intro / Outro templates
 - [ ] Platforms
 
 ### Legal
-- [ ] Using company Trademarks
-- [ ] Using company Copyrights
-- [ ] Trademark symbols 
-
-### Displaying Company Assets 
-This section might be documentation for 3rd party vendors or affiliates
-- [ ] Outdated graphics 
+- [ ] Using company trademarks
+- [ ] Using company copyrights
+- [ ] Trademark symbols
 
 ### Presentational Assets
+Be sure to check with your sales team on the actual usability of these, as working in a high-stress, fast-paced environment means any templates will need to be extremely easy to use, understand, and replicate.
+
 - [ ] General rules and guidelines
-- [ ] Slide decks (powerpoint & keynote) 
+- [ ] Slide decks (PowerPoint, Keynote, Google Slides)
 - [ ] Internal template
 - [ ] External template
+- [ ] Choosing Imagery
+  - [ ] Imagery bank (photography, illustration, iconography)
+  - [ ] Safe sources (CC0 licensing)
+  - [ ] Copyright concerns
 - [ ] Shared assets
-  - [ ] Client / Vendor logo assets
+  - [ ] Client / Vendor logo assets (.svg / .png)
 
-### Misc materials
-- [ ] General guidelines and usage
-- [ ] T-shirts
-  - [ ] Materials
-  - [ ] Colors
-  - [ ] Company Logo Placement
-- [ ] Buttons
-- [ ] Pamphlets
-- [ ] Posters
-- [ ] Booth decals / structure
-- [ ] Billboards
+### Email marketing
+A good design & content guideline can be found [here](https://mailchimp.com/email-design-guide/), developed by MailChimp, an email marketing company.
 
-### Email
-- [ ] Email signatures
+- [ ] General rules and guidelines
+- [ ] Templates
+- [ ] Titles
+- [ ] Imagery
+- [ ] Header / footer treatment
+- [ ] Buttons and CTAs
 
 ### Social media
+
+As social media standards are liable to frequent change, make sure these are kept up to date and preferably checked for validity every quarter.
 
 #### Twitter
 - [ ] General usage guidelines
 - [ ] Avatar
-- [ ] Background Image
+- [ ] Header Image
 
-#### Facebook 
+#### Facebook
 - [ ] General usage guidelines
 - [ ] Profile photo
-- [ ] Background Image
+- [ ] Header Image
 - [ ] Photo albums
 
-#### Vimeo / Youtube (Support videos?)
+#### Vimeo / Youtube
+- [ ] General usage guidelines
 - [ ] Avatar
+- [ ] Header image
+- [ ] Intro / Outro templates
+
+### Print
+- [ ] General guidelines and usage
+- [ ] Flyers
+- [ ] Pamphlets
+- [ ] Posters
+
+### Misc materials
+- [ ] General guidelines and usage
+- [ ] Wearable merchandise
+  - [ ] Materials
+  - [ ] Colors
+  - [ ] Company Logo Placement
+- [ ] Email signatures
+- [ ] Buttons
+- [ ] Event booth decals / structure
+- [ ] Billboards
 
 ## Writing
 
-> Style to be good must be clear. Clearness is secured by using words that are
-current and ordinary. - Aristotle
+This section follows the general outline of the [MailChimp Content Styleguide](https://github.com/mailchimp/content-style-guide), a popular framework for content structuring.
 
 ### Voice and Tone
 - [ ] General guidelines and overview
-- [ ] Goals
 - [ ] Principles
-- [ ] Examples of acceptable text
-- [ ] Examples of unacceptable text
-- [ ] Marketing
-- [ ] App
-- [ ] Gender
-- [ ] Pronouns
-- [ ] Age
-- [ ] Vision
-- [ ] Personal attributes
-- [ ] US vs UK 
-- [ ] Grammar
-- [ ] Acronyms
+- [ ] Specific considerations
+ - [ ] App / Product
+ - [ ] Marketing materials
+ - [ ] Social platforms
+ - [ ] Email marketing
 
-### Formatting
-- [ ] Numbers 
-- [ ] Dates
-- [ ] Time
-- [ ] Datetime/Number ranges
-- [ ] Decimals, Fractions, Percentages
-- [ ] Value ranges 
-- [ ] Currency
-- [ ] Telephone numbers
-- [ ] Temperature
-- [ ] URLS 
-- [ ] Citations
-- [ ] Quotes
-- [ ] Contractions
-- [ ] Author
-- [ ] Address
-- [ ] States, cities, countries
-- [ ] About company
-- [ ] About other companies
-- [ ] Capitalization
-- [ ] Slang
+### Writing about people
+- [ ] Gender and sexuality
+- [ ] Age
+- [ ] Disability
+- [ ] Medical conditions
+- [ ] Mental and cognitive conditions
+- [ ] Personal attributes
+
+### Accessibility
 - [ ] Internationalization (i18n) considerations
+- [ ] Disability considerations
+- [ ] Language complexity considerations
+
+### Grammar and mechanics
+- [ ] US vs UK
+- [ ] Abbreviations and acronyms
+- [ ] Capitalization
+- [ ] Contractions
+- [ ] Emoji
+- [ ] Numbers
+ - [ ] Dates
+ - [ ] Time
+ - [ ] Date-time / Number ranges
+ - [ ] Decimals, Fractions, Percentages
+ - [ ] Value ranges
+ - [ ] Currency
+ - [ ] Telephone numbers
+ - [ ] Temperature
+- [ ] People, Places, and Things
+ - [ ] Names and titles
+ - [ ] Pronouns
+ - [ ] File extensions
+ - [ ] URLs and websites
+ - [ ] Citations
+ - [ ] Quotes
+ - [ ] Author
+ - [ ] Address
+ - [ ] States, cities, countries
+ - [ ] Writing about the company
+ - [ ] Writing about other companies
+- [ ] Slang and jargon
 - [ ] Copyright
 - [ ] Trademarks
-- [ ] Other symbols
-- [ ] Capitalization
-- [ ] Wordlist e.g back end vs back-end. Bcc vs BCC
+- [ ] Other licenses
 
 ### Punctuation
+- [ ] Apostrophes
 - [ ] Colons
 - [ ] Commas
 - [ ] Dashes and hyphens
@@ -221,8 +314,25 @@ current and ordinary. - Aristotle
 - [ ] Semicolons
 - [ ] Ampersands
 
+### Words we like and dislike
+- [ ] Buzzwords
+- [ ] Technical terms
+- [ ] Culturally-sensitive words
+- [ ] Hyphenation
+
+### Content type guidelines
+- [ ] Blog posts
+- [ ] Technical content
+- [ ] Legal content
+- [ ] Email newsletters
+- [ ] Email marketing
+- [ ] Social media
+
 ## Design Primitives
 Base visual styles that can be used for both digital and analog assets.
+
+- [ ] General principles
+- [ ] Accessibility
 
 ### Units of Measure
 - [ ] Names
@@ -232,16 +342,17 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Print
 
 ### Colors
-- [ ] General usage guidelines 
-- [ ] Palette
+- [ ] General usage guidelines
+- [ ] Primary palette
+- [ ] Secondary palette
+- [ ] Extended palette
 - [ ] Combinations of colors for use
-- Color Swatch
-  - [ ] Color Name
-  - [ ] CMYK
-  - [ ] PMS 
+- [ ] Color Swatch
+  - [ ] Color Names
   - [ ] Hex
   - [ ] RGB
-  - [ ] hsl
+  - [ ] CMYK
+  - [ ] PMS / Pantone
 
 ### Gradients
   - [ ] General usage guidelines
@@ -249,11 +360,8 @@ Base visual styles that can be used for both digital and analog assets.
   - [ ] Color values
   - [ ] Type(s)
   - [ ] Direction
-  
-### Typography
-> Typography exists to honor content. - Robert Bringhurst
 
-> Read the text before designing it. - Robert Bringhurst
+### Typography
 
 #### Typefaces (Font family)
 - [ ] General usage and guidelines
@@ -262,32 +370,39 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Print typeface(s)
 - [ ] iOS typeface(s)
 - [ ] Android typeface(s)
+- [ ] Scripts
+  - [ ] Latin
+  - [ ] Cyrillic
+  - [ ] East Asian
+  - [ ] Greek
+- [ ] Assets
+ - [ ] .otf
+ - [ ] .ttf
+ - [ ] .woff
+ - [ ] .eot
+ - [ ] .svg
 
 #### Type scale
-- [ ] General usage and guidelines
+- [ ] General principles
 - [ ] Web
+- [ ] App
 - [ ] Email
 - [ ] Print
 
 #### Leading / line-height
-- [ ] General usage and guidelines
-- [ ] Copy
+- [ ] General principles
 - [ ] Titles / Large font-size
-- [ ] Special cases 
+- [ ] Copy
+- [ ] Special cases
 
 #### Tracking / letter-spacing
-- [ ] General usage and guidelines
+- [ ] General principles
 - [ ] Tight value
 - [ ] Spaced value
-
-#### Font weights
-- [ ] General usage guidelines
-- [ ] Define, if any, constraints with font-size
-- [ ] Available weights (values)
-- [ ] Restriced weight values (if any)
+- [ ] Special cases
 
 #### Measure (Length of lines of text)
-- [ ] General usage notes 
+- [ ] General principles
 - [ ] Narrow
 - [ ] Default
 - [ ] Wide
@@ -302,7 +417,23 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] i18n considerations (Right to Left, Left to Right)
 - [ ] Vertical Alignment general usage guidelines
 
-###  Borders
+### Iconography
+- [ ] General usage guidelines
+- [ ] Size
+- [ ] Clear space
+- [ ] Colors
+- [ ] Styles
+- [ ] Use w/ and w/o text
+- [ ] Alignment
+- [ ] Assets
+  - [ ] .eps
+  - [ ] .png
+  - [ ] .psd
+  - [ ] .sketch
+  - [ ] .svg
+  - [ ] Formats for various platforms
+
+### Borders
 - [ ] Colors
 - [ ] Styles    
 - [ ] Size (width)
@@ -315,13 +446,13 @@ Base visual styles that can be used for both digital and analog assets.
 - [ ] Direction
 
 ### Layout
+- [ ] Breakpoints
 - [ ] Spacing (margins and padding)
   - [ ] General usage and guidelines
   - [ ] Values
   - [ ] Ratio
-- [ ] Breakpoints 
 - [ ] Grid
-  - [ ] Gutters 
+  - [ ] Gutters
   - [ ] Column sizing
   - [ ] Column divisions
   - [ ] Responsive patterns (Collapsing and expanding columns)
@@ -342,169 +473,245 @@ Base visual styles that can be used for both digital and analog assets.
   - [ ] Orientation
   - [ ] Capitalization
 
-### Animations
+### Motion and animation
+- [ ] General usage and guidelines
+- [ ] Principles (clarity, depth, physicality)
 - [ ] Easing functions
 - [ ] Timing of animations
 - [ ] Animation types i.e Bounce, fade, glow
 - [ ] Animated properties
 
-### Icons 
-- [ ] General usage guidelines
-- [ ] Icon grid system
-- [ ] Size API
-- [ ] Colors
-- [ ] Use w and w/o text
-- [ ] Alignment
-- [ ] Collect icon assets
-- [ ] Icon 
-- [ ] Name
-- [ ] Colors
-- [ ] Formats for various platforms
-
-### Misc
-- Existing websites
-- New websites and pages 
-- Internal tools
-- Third party site integrations (zendesk)
-- Logged in app
-
 ## UI Patterns
-> Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution to that problem. - A Pattern Language 
+A run through the most common UI patterns to appear in web and / or mobile apps. Make sure to cover all patterns if these differ between various sections or sub-products.
+
+### Accessibility
+For a detailed checklist, see the [A11Y Web Accessibility](http://a11yproject.com/checklist.html) project and their [resources page](http://a11yproject.com/resources.html) for testing tools. The following is a list of the most common and important things to keep in mind for *any* of the following patterns.
+
+- [ ] Contrast
+- [ ] Colour blindness
+- [ ] HTML landmarks
+- [ ] Focus states
+- [ ] Image alt tags
+- [ ] Audio / video transcripts
 
 ### Text
-### Headings
+
+- Information for each:
+  - Font
+  - Size
+  - Weight
+  - Case style
+  - Tracking
+  - Leading
+
+
+- [ ] Display / H1
+- [ ] Title / H2
+- [ ] Subhead / H3
+- [ ] Body / Regular Text
+- [ ] Caption / Small Text
+- [ ] Label / Tiny Text
+- [ ] Button
+
 ### Links
+- [ ] To app
+- [ ] To other page
+- [ ] Same page
+- [ ] Outbound
+- [ ] Tooltips
+- [ ] Social media
+
 ### Inputs
+- [ ] Text
+- [ ] Text w/ icons
+- [ ] Text Area
+- [ ] States
+  - [ ] Inactive
+  - [ ] Active
+  - [ ] Highlighted
+  - [ ] Success
+  - [ ] Error
+  - [ ] Disabled
+- [ ] Labels
+  - [ ] Required
+  - [ ] Required error
+  - [ ] Min. / Max. characters
+  - [ ] Success message
+  - [ ] Error message
+
 ### Forms
+- [ ] Text
+- [ ] Placeholder
+- [ ] Dropdowns
+  - [ ] Text
+  - [ ] Text w/ Icon
+  - [ ] Single-select
+  - [ ] Multi-select
+  - [ ] Active
+  - [ ] Disabled
+- [ ] Checkboxes
+  - [ ] Unselected
+  - [ ] Selected
+  - [ ] Indeterminate
+  - [ ] Disabled Unselected
+  - [ ] Disabled Selected
+  - [ ] Disabled Indeterminate
+- [ ] Radio buttons
+  - [ ] Inactive
+  - [ ] Selected
+  - [ ] Disabled Inactive
+  - [ ] Disabled Selected
+- [ ] Toggles
+  - [ ] On
+  - [ ] Off
+  - [ ] Disabled On
+  - [ ] Disabled Off
+
 ### Tables
+- [ ] Padding
+- [ ] Margins
 
 ### Buttons
+- [ ] CTA
+- [ ] Positive action (Done / Send)
+- [ ] Negative action (Remove / Delete)
+- [ ] States
+  - [ ] Normal
+  - [ ] Hovered
+  - [ ] Focused
+  - [ ] Pressed
+  - [ ] Loading
+  - [ ] Disabled
 
-### Pagination & Infinite Scroll  
+### Navigation & Pagination
+- [ ] Labels
+- [ ] Tabs
+- [ ] Tooltips
+- [ ] Social buttons
+- [ ] Notification message
+  - [ ] Single line
+  - [ ] Multiple lines
+  - [ ] Positive
+  - [ ] Warning
+  - [ ] Error
+  - [ ] Information
+- [ ] Notification over icon
+  - [ ] Single digit
+  - [ ] Double- / triple-digit
+  - [ ] Max. number
+- [ ] Dropdown
+- [ ] Breadcrumbs
+- [ ] Progress bars
+
+### Alerts & Modals
+- [ ] General usage & guidelines
+- [ ] Frequency
+- [ ] Layout
+- [ ] CTAs
 
 ### Actions
 - [ ] Creating
 - [ ] Reading
-- [ ] Updating
+- [ ] Editing
 - [ ] Deleting
 
-### Navigation
-- [ ] App
-- [ ] Page
-- [ ] Intra
-- [ ] Inter
-
 ### States
-- [ ] Error states 
-- [ ] Success states 
 - [ ] Empty states
+- [ ] Success states
+- [ ] Error states
 - [ ] Loading states
-
-### Misc. 
-- [ ] Content organization
 
 ## Design Assets & Resources
 
-These are things people can download and use to play with and implement various
-aspects of the style guide.
+These are things people can download and use to play with and implement various aspects of the styleguide.
 
-### Code 
-- [ ] Prototyping templates and resources 
+### File Downloads
+- [ ] Design Templates (XD, Photoshop, Illustrator, Sketch)
+- [ ] Icons
+- [ ] Typefaces (desktop, web)
+
+### Code Downloads
+- [ ] Prototyping templates and resources
   - [ ] React
   - [ ] Vue
   - [ ] Angular
   - [ ] Static HTML
 - [ ] CSS toolkit
-  - [ ] Sass 
+  - [ ] Sass
   - [ ] Stylus
   - [ ] Less
-  - [ ] Postcss
+  - [ ] PostCSS
   - [ ] Vanilla
-
-### File Downloads
-- [ ] Design Templates (XD, Photoshop, Illustrator, Sketch)
-- [ ] Icons
-- [ ] Typefaces (Actual font files, useful for print design and using apps like photoshop) 
-
 
 ## Code
 
 ### API
 - [ ] General guidelines and usage
-- [ ] Errors 
+- [ ] Errors
 - [ ] Naming patterns
 - [ ] Changelog
 
-### Coding style guides
-You might find it appropriate
+### Coding styleguides
+You might find it appropriate.
+
 - [ ] General rules and guidelines
-- [ ] Html
-- [ ] Js
-- [ ] Css
-- [ ] TBD
+- [ ] HTML
+- [ ] CSS
+- [ ] JS
 
 ### Git
 - [ ] Commit comment formats
-- [ ] Commit comment grammar
 - [ ] Commit templates
 
 ## Style Audit
-To understand where we need to go and how we are going to get there, we need to
-understand what the current reality is
+To understand where we need to go and how we are going to get there, we need to understand what the current reality is:
 
 1. Audit the existing styles for each separate front-end codebase
-  - Find intersections of common styles
-  - Visualize and compare how values relate to eachother
-2. Collect prior print collateral: letterhead, marketing etc. 
+  - Find intersections of common styles;
+  - Visualize and compare how values relate to each other.
+2. Collect prior print collateral: letterhead, marketing etc.
 3. Collect email screenshots
 4. Visualize flows for common patterns
-- [ ] Log in
-- [ ] Sign up
-- [ ] Delete account
-- [ ] Lost password reset
-- [ ] Change email
-- [ ] Change credit card
-- [ ] Change address
+ - [ ] Log in
+ - [ ] Sign up
+ - [ ] Delete account
+ - [ ] Forgot password reset
+ - [ ] Change email
+ - [ ] Change credit card
+ - [ ] Change address
 
 
-## Pages 
-Common pages. Some of these might be more appropriate as sections 
-on a page depending on your particular content.
+## Pages
+A series of pages that should be designed to maintain consistency across the entire experience.
 
-- [ ] Home 
-- [ ] About
-- [ ] Contact
-- [ ] Help
+- [ ] Brand / Media kit
+- [ ] Help / FAQ
+- [ ] Contact / Sales
 
 ### Error pages
+- [ ] 403
 - [ ] 404
 - [ ] 500
 - [ ] 503
 
-
-## Consuming the styleguide
-
-- Who is the audience?
-- What are their biggest needs?
-- What needs do they not have that we are assuming they have?
-- Onboarding a new designer. What is their process? How can we structure the
-  styleguide in a way that reduces friction and unknowns for a new teammate or
-  person that is collaborating with us?
-- Video tutorials
-- Written guides and visual examples
-- Resources?
+### Legal pages
+- [ ] Copyright
+- [ ] Terms of Service
+- [ ] Privacy Policy
+- [ ] Imprint
 
 ## Further Reading
-While style guides on the web are a relatively new phenomenon, style guides
-themselves have existed for more than a thousand years.
+While style guides on the web are a relatively new phenomenon, they have been
+themselves have existed for more than a thousand years.	used by designers and writers for a long time.
 
-- Grid systems 
-- A Pattern Language
-- Strunk and White:  The Elements of Style
-- Elements of Typography Style
-- ISO 690
-- AMA Manual of Style: http://www.amamanualofstyle.com
-- ALA Standards Manual
+
+- Grid Systems - [Grid Systems](https://www.goodreads.com/book/show/350962.Grid_Systems_in_Graphic_Design_Raster_Systeme_Fur_Die_Visuele_Gestaltung)
+- A Pattern Language - [A Pattern Language](https://en.wikipedia.org/wiki/A_Pattern_Language)
+- Strunk and White:  The Elements of Style	- [Strunk and White:  The Elements of Style](https://en.wikipedia.org/wiki/The_Elements_of_Style)
+- Elements of Typographic Style	- [Elements of Typographic Style](https://en.wikipedia.org/wiki/The_Elements_of_Typographic_Style)
+- ISO 690	- [ISO 690](https://www.rtu.lv/writable/public_files/RTU_standarts_iso_6902010_english.pdf)
+- AMA Manual of Style: http://www.amamanualofstyle.com - [AMA Manual of Style](http://www.amamanualofstyle.com)
+- ALA Standards Manual - [ALA Standards Manual](http://www.ala.org/tools/guidelines/standardsmanual/manual)
 - MLA Handbook
-- Chicago Manual of Style
-- The New York Times Manual
+- Chicago Manual of Style	- Chicago Manual of Style
+- The New York Times Manual	- The New York Times Manual
